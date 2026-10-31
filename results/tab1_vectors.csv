@@ -1,0 +1,12 @@
+,Value
+n (countries),218.0
+Dot product f.m,1177414.3305820716
+||f|| (female),1124.3790791360082
+||m|| (male),1047.552126598742
+"Cosine(f, m) raw",0.9996337679276203
+Angle (degrees),1.550704591379986
+Mean gap f-m (years),5.238354865558522
+||f - m||,82.25029103986303
+"Cosine(f, m) centred",0.97157663900217
+"n (log GDP, LE)",210.0
+"Cosine(logGDP, LE) centred",0.7926031600445229

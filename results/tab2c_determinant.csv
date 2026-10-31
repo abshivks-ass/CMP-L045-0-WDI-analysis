@@ -1,0 +1,11 @@
+,Value
+n (rows of X),177.0
+p (columns),6.0
+log det($X^TX$),52.668353350285315
+det(R),0.009241059274735312
+Largest eigenvalue of R,3.9648067945407637
+Smallest eigenvalue of R,0.10004299421224996
+"Share of variance, 1st PC",0.6608011324234606
+Condition number of R,39.63102889672693
+Max VIF (internet),6.712019204053261
+R² (normal equations),0.7204680797343577
