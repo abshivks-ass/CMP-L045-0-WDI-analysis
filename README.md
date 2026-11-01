@@ -28,7 +28,7 @@ data/raw/                raw World Bank download
 data/wdi_panel_clean.csv cleaned country-year panel
 figures/                 graphs exported by the notebook (PNG, 200 dpi)
 results/                 result tables exported by the notebook (PNG + CSV)
-report/                  final report (PDF for submission, DOCX for editing)
+report/                  final report (Word document)
 requirements.txt         Python packages
 ```
 
