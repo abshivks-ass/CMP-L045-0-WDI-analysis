@@ -1,12 +1,14 @@
 ,Value
 n (countries),218.0
-Dot product f.m,1177414.3305820716
-||f|| (female),1124.3790791360082
-||m|| (male),1047.552126598742
-"Cosine(f, m) raw",0.9996337679276203
-Angle (degrees),1.550704591379986
-Mean gap f-m (years),5.238354865558522
-||f - m||,82.25029103986303
-"Cosine(f, m) centred",0.97157663900217
-"n (log GDP, LE)",210.0
-"Cosine(logGDP, LE) centred",0.7926031600445229
+Dot product a.b,1188921.5751242188
+||a|| (LE 2019),1083.9769552867858
+||b|| (LE 2024),1097.2222466889552
+"Cosine(a, b) raw",0.9996283263559079
+Angle (degrees),1.5621832084005973
+Projection coefficient c,1.011842948089212
+Mean change d (years),0.9902138524422872
+||d|| = ||b - a||,32.5506985106421
+RMS change ||d||/sqrt(n),2.2046114862230892
+"Cosine(a, b) centred",0.9722750319018297
+"n (log GDP, LE 2024)",201.0
+"Cosine(logGDP, LE) centred",0.8621538021229632
