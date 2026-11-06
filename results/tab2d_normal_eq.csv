@@ -1,7 +1,7 @@
-,β (standardised)
-intercept,-7.971878696696581e-17
-log_gdp,0.4944550588991869
-health_exp,-0.006909737545890655
-urban,0.05661436001864871
-internet,0.028741919466635023
-fertility,-0.3898829417043149
+Predictor,β (standardised)
+Intercept,-0.000
+ln GDP per capita,0.494
+Health expenditure (% of GDP),-0.007
+Urban population (%),0.057
+Internet users (%),0.029
+Fertility rate (births per woman),-0.390

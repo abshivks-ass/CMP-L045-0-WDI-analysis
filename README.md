@@ -1,4 +1,4 @@
-# CMP-L045-0 Mathematics and Statistics for Data Science — Part 1
+# CMP-L045-0 Mathematics and Statistics for Data Science, Part 1
 
 Applied problem-solving activity, MSc Data Science, University of Roehampton London.
 
@@ -13,7 +13,7 @@ probability models and confidence intervals, using the latest World Bank data.
 | Link | https://databank.worldbank.org/source/world-development-indicators |
 | Licence | CC BY-4.0 |
 | Downloaded | 2 November 2026 (database last updated 8 October 2026) |
-| Coverage | 218 economies × 2015–2025 = 2,398 country-year rows |
+| Coverage | 218 economies × 2015-2025 = 2,398 country-year rows |
 | Analysis year | 2024, the latest year in which every indicator is published (health expenditure: latest available, mostly 2023) |
 | Variables | GDP per capita (current US$), life expectancy at birth, current health expenditure (% of GDP), urban population (%), internet users (%), fertility rate |
 
@@ -28,7 +28,10 @@ StudentName.ipynb        all code, with titles (text blocks) and comments (code 
 data/raw/                raw World Bank download
 data/wdi_panel_clean.csv cleaned country-year panel
 figures/                 graphs exported by the notebook (PNG, 200 dpi)
-results/                 result tables exported by the notebook (PNG + CSV)
+results/                 result tables exported by the notebook:
+                           <name>.csv         the table exactly as it appears in the report
+                           <name>.png         the same table as an image
+                           <name>_values.csv  the unrounded numbers behind it
 report/                  final report (Word document)
 requirements.txt         Python packages
 ```
@@ -43,6 +46,9 @@ jupyter notebook StudentName.ipynb     # then Kernel > Restart & Run All
 Run from the repository root so the relative paths `data/`, `figures/` and `results/` resolve.
 
 ## Notebook outputs used in the report
+
+The tables in the report are the notebook's `results/<name>.csv` tables, with the same labels and rounding,
+and the figures in the report are the notebook's `figures/` images.
 
 | Report | File |
 |---|---|
